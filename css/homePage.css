@@ -34,6 +34,17 @@ img
     height: 300px;
     margin: 1px;
 }
+.clock
+{
+    background-image: url("../images/michael-winterdal-gRzKhZ6XxfQ-unsplash.jpg");
+}
+.bag{
+    background-image: url("../images/sun-lingyan-_H0fjILH5Vw-unsplash.jpg");
+}
 body{
     background-color: bisque;
+}
+a
+{
+    text-decoration: none;
 }
