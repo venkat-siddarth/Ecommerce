@@ -1,7 +1,7 @@
-.loginbox
+.loginbox1
 {
     width: 100%;
-    background-color:rgb(189, 231, 229) ;
+    background-color:rgb(241, 228, 183) ;
     background-image: url("../images/frank-mckenna-Fg9l2rojs24-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100% ;
@@ -15,20 +15,20 @@
 
 
 }
-#loginicon
+#loginicon1
 {
     width: 50px;
     text-align: center;
     
 }
-#wrapper
+#wrapper1
 {
     display: flex;
     justify-content: center;
     position: relative;
     bottom:29px;
 }
-#form 
+#form1 
 {
     width: 300px;
     border:1px solid black;
@@ -53,7 +53,7 @@ form input[type="email"],input[type="password"]
     
 }
 
-.k,#l
+.k1,#l1
 {
    color: white;
    display: flex;
@@ -82,7 +82,7 @@ h1{
 form
 {
     position: absolute;
-    top: 30%;
+    top: 20%;
     padding-bottom:120px ;
    
 }
@@ -102,7 +102,7 @@ input[type="button"]:hover
 {
     background-color:rgb(185, 29, 29)
 }
-a,#sign{
+.loginbox1 a,#sign1{
     text-align: center;
     text-decoration: none;
     color: white;
@@ -110,7 +110,7 @@ a,#sign{
     position: absolute;
     bottom: 10px;
 }
-#sign
+#sign1
 {
     bottom: 25%;
     margin: 10%;
@@ -124,7 +124,7 @@ input::placeholder
 {
     margin: 0;
 }
-input[type="email"],input[type="password"]:focus
+input[type="email"],input[type="text"]:focus
 {   
     outline:none;
     background-color: inherit;
