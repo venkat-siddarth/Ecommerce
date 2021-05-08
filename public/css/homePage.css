@@ -1,0 +1,50 @@
+.col-md-3
+{
+    margin-bottom: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-common="style"] 
+{
+    position: relative;  
+}
+
+#new
+{
+    background-color: rgb(245, 245, 245);
+}
+.card
+{
+    position: absolute;
+}
+.clock,.watch,.bag
+{
+    background-image: url("../images/andrik-langfield-0rTCXZM7Xfo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 1px;
+}
+.clock
+{
+    background-image: url("../images/michael-winterdal-gRzKhZ6XxfQ-unsplash.jpg");
+}
+.bag{
+    background-image: url("../images/sun-lingyan-_H0fjILH5Vw-unsplash.jpg");
+}
+body{
+    background-color: bisque;
+}
+a
+{
+    text-decoration: none;
+}

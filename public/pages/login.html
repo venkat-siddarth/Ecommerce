@@ -1,0 +1,106 @@
+
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="../images/calendar.png" />
+    <title>Redstone | Ecom</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="/../js/validation.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/usm/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/server_loginPage.js"></script>
+</head>
+
+    <body>
+    
+            <div class="loginbox1">
+                
+                <form id="form1">
+                    <div id="wrapper1"><img src="../images/calendar.png" alt="usericon" id="loginicon1"></div>
+                    <h1>Login Here</h1>
+
+                    <label for="email">Email</label>
+                    <div id="k1" class="k1">
+                        
+                        <input type="email" id="email" placeholder="Enter your name">
+
+                    </div>
+                    <div class="col1" id="email_error"></div>
+                    <label for="paswd">Password</label>
+                    <div id="l1" style="margin-bottom: 20px;">
+                        <input type="password" id ="paswd" placeholder="Enter your password">
+                    </div>
+                    <div class="col1" id="pswd_error"></div>
+                    <div id="sign1"><input type="checkbox" name="sign in" > Keep me signed in </div> 
+                    <div><input type="button" click="validate()" value="Login"></div>
+                    <div class="k1"><a href="signup.html" target="_blank" > Dont have a account?<span style="color: blue;">Signup here</span></a></div>
+                </form>
+            
+                
+            </div>
+        <footer class="bg-dark text-center text-lg-start text-light">
+            <!-- Grid container -->
+            <div class="container-fluid" style="padding-top: 75px;padding-bottom: 10px;">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">About Redstone </h5>
+        
+                        <p>
+                            Redstone is a only community where the local and international brands can showcase and sell there
+                            products
+                        </p>
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">about us</h5>
+                        <list>
+                            <ul>
+                                Design team
+                            </ul>
+                            <ul>
+                                Backend team
+                            </ul>
+                            <ul>
+                                Product team
+                            </ul>
+                        </list>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Join our community!</h5>
+                        <form class="subscribe" action="/">
+                            <input type="text" placeholder="Email address" id="subscribe-email">
+                            <button id="subscribe"
+                                style="border: 2px solid red;background-color: red;color: white;border-radius: 5px;" onclick="sendData()">Sign me
+                                up</button>
+                        </form>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                &copy; 2020 Copyright:
+                <a class="text-light" href="#">Redstone</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <script>
+            const button = document.getElementById("subscribe")
+            button.addEventListener("click", function (e) {
+                e.preventDefault()
+            })
+        </script>
+
+            
+    </body>
+</html>

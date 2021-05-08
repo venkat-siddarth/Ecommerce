@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="images/calendar.png" />
+    <title>
+        Redstone|HomePage
+</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/usm/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/server_homePage.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-right: calc(12%);">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/calendar.png" alt="logo" style="width: 40px;">Redstone
+            </a>
+            <div class="navbar-nav" style="width: 100%;">
+           
+                    <input type="search" placeholder="Search" style="border: none;border-radius: 2px;width: 78%;" ><button type="button" class="btn btn-success">Search</button>
+            </div>
+            <div style="display: flex;align-items: flex-end;">
+                <a href="pages/login.html" target="_blank"><button type="button" class="btn btn-success">Login</button></a>
+
+            </div> 
+        </nav>
+    </div>
+    <div class=" container-fluid" style="background-color:bisque;padding-top: 10px;">
+   <div class="container-fluid" style="width: 78%;">
+        <div id="myCarousel" class="carousel slide">
+        
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+            </ul>
+        
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="Los Angeles" width="100%" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/jakob-owens-BmH09wAkJa8-unsplash.jpg" alt="Chicago" width="100%" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/tamara-bellis-LJqRUWr9V0w-unsplash.jpg" alt="New York" width="100%">
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    
+    </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(245, 245, 245);">
+    <div class="container" id="new">
+        <h1 class="Display-1 mt-3" style="padding-bottom: 10px;">New Releases</h1>
+        <div class="row">
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+        </div>
+            <div class="row">
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+            <div class="col-md-3" data-common="style"></div>
+         </div>
+    </div>
+    </div>
+    <div class="container-fluid" id="cat" style="background-color: beige;padding-bottom: 20px;">
+        <h1 class="Display-1 mt-3">Categories</h1>
+        <div class="row">
+            <div class="col-md-4" data-cat="s">
+                <div class="watch">
+                <a href="#"> <div class="text" style="background-color: black;height: 50%;opacity: 0.5;color: white;position: relative;top: 50%;"><h1>Watches</h1></div>
+                </a></div>
+                </div>
+            
+            <div class="col-md-4" data-cat="s">
+                <div class="clock">
+                    <a href="#" ><div class="text-1" style="background-color: black;height: 50%;opacity: 0.5;color: white;position: relative;top: 50%;"><h1>Headphones</h1></div>
+                    </a></div>
+                    </div>
+            <div class="col-md-4" data-cat="s">
+                <div class="bag">
+                  <a href="#" ><div class="text-2" style="background-color: black;height: 50%;opacity: 0.5;color: white;position: relative;top: 50%;"><h1>Bags</h1></div>
+                </a>
+                </div>
+                </div>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="bg-dark text-center text-lg-start text-light" >
+    <!-- Grid container -->
+    <div class="container-fluid" style="padding-top: 75px;padding-bottom: 10px;">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About Redstone </h5>
+
+                <p>
+                    Redstone is a only community where the local and international brands can showcase and sell there products
+                </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">about us</h5>
+                <list>
+                    <ul>
+                        Design team
+                    </ul>
+                    <ul>
+                        Backend team
+                    </ul>
+                    <ul>
+                        Product team
+                    </ul>
+                </list>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Join our community!</h5>
+                <div class="subscribe">
+                    <input type="text" placeholder="Email address" id="subscribe-email">
+                    <button id="subscribe" style="border: 2px solid red;background-color: red;color: white;border-radius: 5px; " onclick="sendData()">Sign me up</button>
+                </div>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; 2020 Copyright:
+        <a class="text-light" href="#">Redstone</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="js/homePage.js"></script>
+
+</body>
+
+</html>
